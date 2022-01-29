@@ -1,6 +1,7 @@
 //import { db } from "./firebase.js";
 //import { useState } from "react";
 //<h3>Gain. Reign. Sustain.</h3>
+import Image from "./images/Untitled-Artwork.png"
 const Home = () => {
 
     return ( 
@@ -8,6 +9,9 @@ const Home = () => {
             <div className="main-statement">
                 <h3>Donate Once. Give Forever.</h3>
             </div>
+            <p className="align-center-image">
+                <img src={Image} class="awesomeImage-thxSister" />
+            </p>
             <div className="textbox">
                 <button className="donate">
                     Donate

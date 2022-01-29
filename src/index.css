@@ -11,6 +11,9 @@
 .navbar h1 {
   color: #f1356d;
 }
+.voting-screen h1{
+  display: inline;
+}
 .navbar .links {
   margin-left: auto;
   padding: 10px;
@@ -62,13 +65,14 @@
   padding: 5px;
   color: black;
   margin-bottom: auto;
+  margin-top: -40px;
 }
 .textbox .donate{
   color:#e7feff;
   font-family: Quicksand;
   font-size: 30px;
   background-color:#f1356d ;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   width: 230px;
   height: auto;
@@ -76,6 +80,7 @@
   margin-top: 90px;
   margin-inline-end: 50px;
   margin-inline-start: 50px;
+
 }
 .donate:hover{
   background-color: black;
@@ -90,6 +95,51 @@
   padding: 7px;
   background-color: red;
   border-radius: 10px;
+}
+.voting-screen{
+  align-items:center;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 40px;
+  font-family: Quicksand;
+  
+}
+.form-control{
+  width: 300px;
+  height:40px;
+  color: rgb(197, 194, 194);
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 10px;
+}
+.vote{
+  margin-top: 30px;
+  background-color:#f1356d;
+  width: 150px;
+  height: 30px;
+  border-color: white;
+  border-radius: 10px;
+  font-family: Quicksand;
+}
+.donate-screen{
+  font-family: Quicksand;
+}
+.fineprint{
+  font-style: italic;
+  opacity: 30%;
+}
+.awesomeImage-thxSister{
+  image-rendering: auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+}
+.align-center-image{
+  text-align: center;
+  margin-top: -30px;
 }
 
 

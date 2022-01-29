@@ -9,7 +9,9 @@ const Voting = () => {
     ]);
     return ( 
         <div className="voting-screen">
-        <select class="form-control form-control-lg">
+            <h1>Ballot</h1>
+            <h3>Choose Your Desired Charity<h1>👇</h1>...Then Press Vote<h1>🗳</h1></h3>
+        <select name="Choose A Proposal" className="form-control">
             <option>{"Large select"}</option>
             <option>{"Large select"}</option>
             <option>{"Large select"}</option>
